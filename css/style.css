@@ -28,21 +28,27 @@ body {
 
 /* К любому объекту в классе которого __container будут применены данные стили*/
 [class*="__container"]{
-    max-width: 1057px;
+    max-width: 1087px; /* Расширили на 30px из-за padding */
     margin: 0 auto;
+    padding: 0px 15px;
 }
 
 a{
     text-decoration: none;
 }
 
-
+.header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index:50;
+}
 .header__container{
     display: flex;
     min-height: 114px;
     align-items: center;
 }
-
 
 .header__menu{
     flex: 1 1 auto;
@@ -52,6 +58,7 @@ a{
     display: flex;
     justify-content: flex-end;
     flex: 0 0 252px;
+    align-items: center;
 }
 
 .menu{
@@ -64,8 +71,9 @@ a{
 }
 
 .menu__item{
-    margin-right: 40px; /*Можно использовать gap:40px; для .menu */
+    margin: 0px 40px 0px 0px; /*Можно использовать gap:40px; для .menu */
 }
+
 
 .menu__link{
     font-family: Raleway;
@@ -105,4 +113,9 @@ a{
 }
 
 
+/*------------------------------*/
+
+.icon-menu{
+    display: none;
+}
 
