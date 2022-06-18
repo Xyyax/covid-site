@@ -1,0 +1,25 @@
+body {
+    font-family: Rubik;
+    font-size:12px;
+    color: #616161;
+}
+
+.wrapper{
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; /* Нужно чтобы wrapper занимал минимум всю ширину окна браузера*/
+}
+
+.main{
+    flex:1 1 auto;
+}
+
+
+/* К любому объекту в классе которого __container будут применены данные стили*/
+[class*="__container"]{
+    max-width: 1057px;
+    margin: 0 auto;
+}
+
+
