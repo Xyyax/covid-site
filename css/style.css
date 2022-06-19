@@ -112,10 +112,17 @@ a{
     background-color: #366bbe;
 }
 
-
-/*------------------------------*/
-
 .icon-menu{
     display: none;
 }
+
+
+/* Стили для main get-started */
+
+.get-started{
+    background-color: #FAFBFD;
+    
+}
+
+
 
