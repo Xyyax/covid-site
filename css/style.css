@@ -170,8 +170,17 @@ a{
     color: #4285F4;
 }
 
+.block-text_center{
+    text-align: center;
+}
+
 .block-text__text{
     line-height: 138.5%;
+}
+
+.block-text__text_mw{
+    max-width: 620px;
+    margin: 0px auto;
 }
 
 .block-text__text:not(:last-child){   /* Если объёкт будет последний - то отступ уберется */
@@ -427,4 +436,122 @@ a{
     top: 0;
     left: 0;
     object-fit: cover;
+}
+
+/* Блок healthcare */
+
+.healthcare{
+    margin: 80px 0px 30px 0px;
+}
+
+.healthcare__block-text{
+    margin-bottom: 46px;
+}
+
+.healthcare__items{
+    display: flex;
+    align-items: center;
+    flex: 0 1 33%;
+    max-width: 980px;
+    margin: 0px auto;
+    gap:72px;
+}
+
+.item-healthcare{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 17px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    max-height: 100%;;
+}
+
+.item-healthcare__icon{
+    margin: 0px 0px 58px 0px;
+}
+
+.item-healthcare__title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 138.5%;
+    text-align: center;
+    letter-spacing: 0.08em;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.item-healthcare__text{
+    line-height: 138.5%;
+}
+
+.healthcare__item-wrapper{
+    position: relative;
+}
+
+.healthcare__item1::before,
+.healthcare__item1::after,
+.healthcare__item2::after,
+.healthcare__item3::after{
+    content:"";
+    position:absolute;
+}
+
+.healthcare__item1::before{
+    width: 65px;
+    height: 65px;
+    transform: rotate(-30deg);    
+    background-color: #EC5863;
+    border-radius: 30px;
+    bottom: -20px;
+    left:-20px  
+}
+
+.healthcare__item1::after{
+    width: 96px;
+    height: 96px;
+    transform: rotate(30deg);    
+    background-color: #EC5863;
+    border-radius: 30px;
+    top:35px;
+    right:-45px;
+}
+
+.healthcare__item2::after{
+    width: 127px;
+    height: 127px;
+    transform: rotate(-30deg);    
+    background-color: #EC5863;
+    border-radius: 30px;
+    bottom: -20px;
+    right:-70px;
+}
+
+.healthcare__item3::after{
+    width: 66px;
+    height: 66px;
+    transform: rotate(-30deg);    
+    background-color: #EC5863;
+    border-radius: 16px;
+    top: -40px;
+    right: -15px;
+}
+
+/* Стили для footer */
+
+.footer{
+    padding: 45px 0px;
+}
+
+.footer__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
 }

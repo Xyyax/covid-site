@@ -247,3 +247,15 @@
         margin:15px;
     }
 }
+
+/* Стили для healthcare */
+
+@media(max-width:767px){
+    .healthcare__items{
+        flex-direction: column;
+    }
+
+    .healthcare__item3::after{
+        display: none;
+    }
+}
