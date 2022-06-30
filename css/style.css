@@ -305,3 +305,123 @@ a{
     bottom: 107px;
     right: 174px;
 }
+
+/* Блок experts */
+
+.experts{
+    background-color: #FAFBFD;
+    padding: 103px 0px 116px 0px;
+}
+
+.statistic-experts {
+    max-width: 655px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.statistic-experts__body{
+    position: relative;
+    z-index: 2;
+    border-radius: 16px;
+    box-shadow:0px 2px 24px rgba(88,126,236,0.15);
+    background-color: #fff;
+    margin-bottom: 100px;
+}
+
+.body-statistic-experts{
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+}
+
+.body-statistic-experts__item{
+    flex: 1 1 25%;
+}
+
+.body-statistic-experts__item:last-child{
+    flex: 1 1 50%;
+}
+
+.body-statistic-experts__value{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.14em;
+    color: #EC5863;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.body-statistic-experts__text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.37em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.statistic-experts__decor{
+    position: absolute;
+    background-color: #EC5863;
+    border-radius: 30px;
+
+}
+
+.statistic-experts__decor_1{
+    width: 65px;
+    height: 65px;
+    transform: rotate(-30deg);
+    bottom:-21px;
+    left:-21px;
+    border-radius: 16px;
+}
+
+.statistic-experts__decor_2{
+    width: 96px;
+    height: 96px;
+    right: 50%;
+    top:-40px;
+    transform: rotate(105deg);
+}
+
+.statistic-experts__decor_3{
+    width: 127px;
+    height: 127px;
+    right: -50px;
+    top:-10px;
+    transform: rotate(-30deg);
+}
+
+.experts__body{
+    display: flex;
+    align-items: center;
+}
+
+.experts__block-text{
+    max-width: 400px;
+}
+
+.experts__content{
+    flex: 0 1 50%;
+    padding: 0px 20px 0px 0px;
+}
+
+.experts__video{
+    flex: 0 1 50%;
+    position: relative;
+    padding-bottom: 40%;
+}
+
+.experts__video iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
