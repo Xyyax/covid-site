@@ -244,6 +244,6 @@
     }
 
     .body-statistic-experts:not(:last-child){
-        margin:
+        margin:15px;
     }
 }
